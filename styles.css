@@ -447,7 +447,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .header {
-       background-size: 1920px 1080px;
+       background-size: 1700px 900px;
     }
 }
 

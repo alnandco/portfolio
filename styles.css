@@ -445,7 +445,11 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-
+@media(min-width: 501px) {
+    .header {
+       background-size: 2000px 950px;
+    }
+}
 
 
 

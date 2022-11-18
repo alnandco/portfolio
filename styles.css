@@ -758,5 +758,30 @@ body:not(.user-is-tabbing) a:focus {
 }
 }
 
+/* jquery count number*/
+.counter-container {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 50px;
+  }
+  
+  .counter {
+    font-size: 60px;
+    margin-top: 10px;
+  }
 
+  span {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(241, 232, 232);
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 580px) {
+    body {
+      flex-direction: column;
+    }
+  }
 
